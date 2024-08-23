@@ -1,0 +1,146 @@
+.experience {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.experience-left {
+    flex-basis: 45%;
+    position: relative;
+}
+
+.experience-left h1 {
+    margin: 10px 0;
+    font-size: 35px;
+    color: #5b81b0;
+    max-width: 400px;
+}
+
+.experience-left p {
+    color: #676767;
+    margin-bottom: 15px;
+    text-align: justify;
+    /* text-transform: capitalize; */
+}
+
+.experience-right {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.experience-card {
+    max-width: 510px;
+    margin-left: 10px;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.e-card {
+    position: relative;
+    border: 1px solid rgba(41, 71, 169, 0.1);
+    background: #fff;
+    padding: 2em;
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.4);
+    min-width: 260px;
+    max-width: max-content;
+    border-radius: 5px;
+}
+
+.e-card:nth-of-type(odd) {
+    margin-left: auto;
+
+}
+
+.e-card::after {
+    content: '';
+    position: absolute;
+    top: -45px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.e-card:nth-of-type(odd)::after {
+    right: 0;
+}
+
+.e-card:nth-of-type(even)::after {
+    left: 0;
+}
+
+.e-card:nth-of-type(1)::after {
+    background-image: url('../../assets/ex1.png');
+    height: 65%;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+.e-card:nth-of-type(2)::after {
+    background-image: url('../../assets/ex2.png');
+    height: 65%;
+    margin-left: 180px;
+    margin-top: 10px;
+
+}
+
+.e-card:nth-of-type(3)::after {
+    background-image: url('../../assets/ex3.png');
+    height: 65%;
+    margin-right: 35px;
+    margin-top: 10px;
+
+
+}
+
+.e-card:nth-of-type(4)::after {
+    background-image: url('../../assets/ex4.png');
+    height: 65%;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+/* media */
+
+/* ova bese min-width */
+@media (max-width:800px) {
+    .experience{
+        flex-direction: column;
+    }
+    .experience-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .experience-right{
+        flex-basis: 100%;
+    }
+    .experience-card {
+        gap: unset;
+       
+    }
+
+    .e-card+.e-card {
+        margin-top: 0.5em;
+    }
+
+    .e-card:nth-of-type(odd)::after {
+        right: -35px;
+    }
+
+    .e-card:nth-of-type(even)::after {
+        left: -20px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .experience-left {
+        margin-top: 20px;
+    }
+    
+
+
+}

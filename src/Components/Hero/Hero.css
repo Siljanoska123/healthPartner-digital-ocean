@@ -1,0 +1,123 @@
+.hero {
+    /* margin: 100px auto;
+    width: 90%; */
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero::before{
+    content: "";
+    /* background-image: url('https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png');
+    */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+/* .bg-image {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg) scaleX(1) scaleY(1) scaleZ(1);
+    position: fixed;
+    bottom: -2rem;
+    right: -1rem;
+    z-index: -1;
+    opacity: 0.1;
+    width: 100%;
+} */
+
+
+.hero-left {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.hero-left span {
+
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    color: #717171;
+}
+
+
+.hero-left h1 {
+    /* text-transform: capitalize; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-size: 40px;
+    background-color: #5b81b0;
+    background-image: linear-gradient(45deg, #5b81b0, #000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-left hr {
+    display: block;
+    background: #ffcc34;
+    height: 4px;
+    border: none;
+    margin: 18px 0 30px 0;
+
+}
+
+.hero-left p {
+    line-height: 1.6;
+  
+    color: #717171;
+}
+
+.hero .btn {
+    margin-top: 50px;
+    color: #5b81b0;
+    border: 2px solid #5b81b0;
+
+}
+
+
+.hero-right {
+    flex-basis: 48%;
+    position: relative;
+
+}
+
+
+.hero-right .hero_img{
+    width: 650px;
+    height: 500px;
+    object-fit: contain;
+}
+
+
+
+/* media query */
+
+@media (max-width:800px) {
+    .hero {
+        flex-direction: column;
+
+    }
+
+    .hero-left {
+        flex-basis: 100%;
+        margin: 20px;
+        margin-top: 200px;
+   
+    }
+
+    .hero-right {
+        /* flex-basis: 100%; */
+        display: none;
+    }
+
+}

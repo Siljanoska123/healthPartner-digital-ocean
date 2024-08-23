@@ -1,0 +1,146 @@
+/* https://www.youtube.com/watch?v=wHpnPy5H-ak */
+
+/* 
+width:1200px
+height: 100%
+margin:auto */
+
+.our-team {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.card {
+
+    width: 300px;
+    height: 450px;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 70px;
+    position: relative;
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 1px #9592927a;
+}
+
+.color-image {
+    width: 80%;
+    /* transform: rotate(90deg); */
+
+    transform: rotate(10deg);
+    margin-left: 30px;
+    margin-top: 8px;
+
+
+
+}
+
+.photo-image {
+    width: 80%;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.card:hover .color-image {
+    /* transform: rotate(120deg); */
+    transform: rotate(20deg);
+}
+
+.card h3 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.card h4 {
+    text-align: center;
+    font-weight: 500;
+    color: gray;
+
+}
+
+.card-icon {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.card-icon ion-icon {
+    font-size: 20px;
+    border-radius: 50%;
+
+    padding: 8px;
+    cursor: pointer;
+    background: #5b81b0;
+    color: #fff;
+    /* border: 1px solid #ffc400 ; */
+    border: 1px solid #fff;
+    opacity: 0;
+    margin-right: 5px;
+}
+
+.card-icon ion-icon:hover {
+    color: gray;
+    border: 1px solid;
+    background: transparent;
+
+}
+
+.card:hover .card-icon ion-icon {
+    opacity: 1;
+}
+
+
+
+/* media */
+
+@media (max-width:800px) {
+    .our-team {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 38%;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width:600px) {
+.color-image,
+.photo-image{
+left: 25px;   
+}
+
+.card{
+    height: 300px;
+}
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card h4{
+        font-size: 12px;
+    }
+
+    .card-icon {
+        text-align: center;
+        margin-top: 40px;
+        
+    
+    }
+    
+    .card-icon ion-icon {
+        font-size: 15px;
+        opacity: 1;
+   
+    }
+
+}
