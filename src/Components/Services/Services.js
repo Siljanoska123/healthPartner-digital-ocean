@@ -19,7 +19,7 @@ function Services() {
             <p >
               {project.text}
             </p>
-            <button className="btn dark-btn "><a href={`/service/${project.id}`}>Read more</a></button>
+            <button className="btn dark-btn "><Link className="btn dark-btn " to={`/service/${project.id}`}>Read more</Link></button>
            
            
             {/* <Link className="btn dark-btn " to={`/service/${project.id}`}>Read more</Link> */}
