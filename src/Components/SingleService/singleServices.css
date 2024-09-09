@@ -143,6 +143,7 @@
         margin: 0;
         line-height: 1.6;
         color: #676767;
+
 }
 
 .proba2 ol {
@@ -208,38 +209,49 @@
         color: white;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 40em) {
         .proba2 li {
                 margin: 3rem auto;
                 padding: 3rem 2rem 2rem;
         }
 
-        .proba2 li h3 {
-                font-size: 15px;
+        .proba2 h3 {
+                font-size: 2.25rem;
                 margin: 0 0 2rem;
         }
 
-        .proba2 li h3::before {
-                margin-right: 1rem;
-                font-size: 20px;
-                width: 8%;
-                height: 1rem;
-        }
-
-        .proba2 li p{
-                font-size: 12px;
+        .proba2 h3::before {
+                margin-right: 1.5rem;
         }
 }
 
 /* za kardot */
 
-
-
+@media (max-width:400px) {}
 
 /* media query */
 
 @media (max-width:800px) {
+        .proba2 {
+                padding-bottom: 150px;
+        }
+
+        .proba2 li h3 {
+                font-size: 15px;
+                padding-bottom: 20px;
+        }
+
+        .proba2 li h3::before {
+                width: 5%;
+                height: 5px;
+        }
+
+        .proba2 li p {
+                font-size: 14px;
+        }
+
         .singleServices {
+
                 flex-direction: column;
 
         }
@@ -264,7 +276,7 @@
 
         .description {
                 flex-direction: column;
-padding: 0 20px 0 20px;
+
         }
 
         .description-left {
@@ -278,9 +290,10 @@ padding: 0 20px 0 20px;
                 flex-basis: 100%;
         }
 
-        .description-right p{
-                font-size: 14px;
+        .description-right p {
+                font-size: 15px;
         }
+
         .singleServices-title {
                 flex-direction: column;
                 margin-top: 350px;
