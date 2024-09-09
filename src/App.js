@@ -14,7 +14,9 @@ import Services from './Components/Services/Services'
 import Experience from './Components/Experience/Experience'
 import Hero from './Components/Hero/Hero'
 import Steps from './Components/Steps/Steps'
-
+import { Route, Routes } from 'react-router-dom'
+import SingleService from './Components/SingleService/SingleService'
+import HomePage from './HomePage/HomePage'
 
 const App = () => {
 
@@ -25,30 +27,16 @@ const App = () => {
     <div>
       <Navbar />
       {/* <Header /> */}
-      <Hero />
-   
+      
+      <Routes>
+        <Route path='*' element={<HomePage/>}/>
+        <Route path='/service/:id' element={<SingleService />}></Route>
+      
+      </Routes>
 
       <div className='container'>
-     
-        <Aboutus setPlayState={setPlayState} />
-        <Title subTitle='How We Work' title='Our process' />
-        <Steps/>
-        <Title subTitle='Our Program' title='What We Offer' />
-        <Programs />
-        <Title subTitle='Our Team' title='We Are The Best Team' />
-        <OurTeam />
-        <Title subTitle='Services' title='What We Offer' />
-        <Services />
-        <Title subTitle='Gallery' title='Best Fotos of Us' />
-        <Gallery />
-        <Title subTitle='Experience' title='What is Our Experience' />
-        <Experience />
-        <Title subTitle='Reviws' title='What Others Says' />
-        <Reviews />
-        <Title subTitle='Contact Us' title='Get in Touch' />
+      <Title subTitle='Contact Us' title='Get in Touch' />
         <Contactus />
-
-        
         <Footer />
       </div>
       <Video playState={playState} setPlayState={setPlayState} />

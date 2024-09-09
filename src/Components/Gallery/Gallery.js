@@ -6,7 +6,7 @@ import service3 from '../../assets/service3.jpg'
 import service4 from '../../assets/service4.png'
 import white_arrow from '../../assets/white_arrow.png'
 
-const Services = () => {
+const Gallery = () => {
   return (
     <div className='gallery'>
       <div className='gallery-image'>
@@ -26,4 +26,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Gallery
