@@ -79,10 +79,35 @@
 @media (max-width:700px){
     .contact {
         display: block;
+        width: 70%;
 
     }
     .contact-col{
-        padding: 20px;
+        padding: 0px;
+    }
+
+    .contact-col h3{
+      
+        font-size: 20px;
+    }
+    .contact-col p{
+        font-size: 12px;
+    }
+    .contact-col ul{
+        background-color: #5b81b0;
+        color: #fff;
+margin: 15px 0 30px 0;
+        padding: 1px 20px;
+    }
+    .contact-col ul li{
+        font-size: 12px;
+    }
+    .contact-col form{
+        padding: 10px;
+        border: 2px solid #5b81b0;
+    }
+    .contact-col .btn{
+font-size: 12px;
     }
 
 }

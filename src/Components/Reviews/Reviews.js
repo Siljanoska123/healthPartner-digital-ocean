@@ -33,11 +33,7 @@ function Reviews() {
                 onClick={slideForward} >
                 <ion-icon name="chevron-forward-outline"></ion-icon>
             </scan>
-            {/* <img src={next_icon} alt='' className='next-btn'
-                onClick={slideForward} /> */}
-            {/* <img src={back_icon} alt='' className='back-btn'
-                onClick={slideBackward} /> */}
-
+          
             <scan className='back-btn'
                 onClick={slideBackward}  >
                 <ion-icon name="chevron-back-outline"></ion-icon>

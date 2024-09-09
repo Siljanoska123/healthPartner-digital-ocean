@@ -17,7 +17,7 @@ const Contactus = () => {
             {/* 1.47 */}
             <div className='contact-col'>
                 <h3>Sent a message <img src={msg_icon} alt='' /></h3>
-                <p>Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit adipiscing elit.Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit adipiscing elit.Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit adipiscing elit.</p>
                 <ul>
                     <li>
                         <ion-icon name="mail-open-outline"></ion-icon>
@@ -32,7 +32,7 @@ const Contactus = () => {
                     <li>
                         {/* <img src={location_icon} alt='' />  */}
                         <ion-icon name="location-outline"></ion-icon>
-                        Adress <br /> City Country</li>
+                        Durachweg <br /> 8200 Schaffhausen, Switzerland</li>
                 </ul>
             </div>
           <Result/>
