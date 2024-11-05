@@ -108,13 +108,18 @@ const Courses = () => {
                             <a><img src={img_courses} /></a>
                         </header>
                         <div className="courses-card__body">
-                        <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
+                            <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
                             <h2 className="courses-card__title"><a >Leadership and Organizational Culture</a></h2>
-                            <Link to={'/'} >
+                            {/* <Link to={'/courses/course1'} >
                                 more
-                            </Link>
+                            </Link> */}
+
+
+                            <a href='/courses/course1' >
+                                more
+                            </a>
                             <p className="courses-card__description">
-                            Is designed to equip leaders with the tools they need to create thriving, innovative workplaces.
+                                Is designed to equip leaders with the tools they need to create thriving, innovative workplaces.
                             </p>
                         </div>
                         <footer className="courses-card__footer">
@@ -133,13 +138,13 @@ const Courses = () => {
                             <a><img src={img_courses} /></a>
                         </header>
                         <div className="courses-card__body">
-                        <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
+                            <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
                             <h2 className="courses-card__title"><a >Optimizing Workplace Ergonomics</a></h2>
-                            <Link to={'/'} >
+                            <Link to={'/courses/course1'} >
                                 more
                             </Link>
                             <p className="courses-card__description">
-                            Is crucial for protecting employees's health and well-being.
+                                Is crucial for protecting employees's health and well-being.
                             </p>
                         </div>
                         <footer className="courses-card__footer">
@@ -160,11 +165,15 @@ const Courses = () => {
                         <div className="courses-card__body">
                             <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
                             <h2 className="courses-card__title"><a >Ensuring workplace safety and health</a></h2>
-                            <Link to={'/'} >
+                            {/* <Link to={'/courses/course1'} >
                                 more
-                            </Link>
+                            </Link> */}
+
+                            <a href='/courses/course1' >
+                                more
+                            </a>
                             <p className="courses-card__description">
-                            Is crucial in any organization, no matter the industry
+                                Is crucial in any organization, no matter the industry
                             </p>
                         </div>
                         <footer className="courses-card__footer">
