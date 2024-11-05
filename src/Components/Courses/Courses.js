@@ -110,14 +110,9 @@ const Courses = () => {
                         <div className="courses-card__body">
                             <div className="courses-card__category"><a ><b>T r a i n i n g</b></a></div>
                             <h2 className="courses-card__title"><a >Leadership and Organizational Culture</a></h2>
-                            {/* <Link to={'/courses/course1'} >
+                            <Link to={'/courses/course1'} >
                                 more
-                            </Link> */}
-
-
-                            <a href='/courses/course1' >
-                                more
-                            </a>
+                            </Link>
                             <p className="courses-card__description">
                                 Is designed to equip leaders with the tools they need to create thriving, innovative workplaces.
                             </p>
