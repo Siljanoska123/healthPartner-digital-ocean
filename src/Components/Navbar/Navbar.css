@@ -1,7 +1,7 @@
 nav {
     width: 100%;
-    background: #5b81b0;
-    color: #fff;
+    background: #fff; 
+    color:#717171;
     padding: 4px 0;
     position: fixed;
     top: 0;
@@ -14,8 +14,8 @@ nav {
 }
 
 .logo {
-    width: 70px;
-    height: 55px;
+    width: 90px;
+    height: 45px;
 
 
 }
@@ -26,14 +26,16 @@ nav ul li {
     margin: 5px 20px;
     font-size: 16px;
 
+
 }
 
 nav ul li:hover:not(:last-child) {
-    color: #ffcc34;
-    /* font-weight: bold; */
+  
+    font-weight: bold;
     padding-bottom: 5px;
     border-bottom-style: outset;
     border-bottom-width: 4.1px;
+    border-bottom-color: #ffcc34;
     width: fit-content;
 
 }
@@ -42,8 +44,13 @@ nav ul li .btn:hover {
     background-color: #ffcc34;
 }
 
+nav ul li .btn {
+    background-color: #ffcc34;
+    color:#717171;
+}
+
 .dark-nav {
-    background: #5b81b0;
+    background:fff;
     transition: 0.5s;
 }
 
@@ -53,6 +60,7 @@ nav ul li .btn:hover {
 
 .menu-icon ion-icon {
     font-size: 35px;
+
 }
 
 /* mobilna verzija 2.19.56 */
@@ -66,6 +74,9 @@ nav ul li .btn:hover {
     nav ul li {
         margin: 10px 15px;
     }
+
+   
+
 }
 
 @media (max-width: 840px) {
@@ -78,11 +89,12 @@ nav ul li .btn:hover {
         top: 0;
         right: 0px;
         bottom: 0;
-        background: #5b81b0;
+        background: #fff;
         z-index: -1;
         width: 250px;
         padding-top: 70px;
         transition: 0.5s;
+
     }
 
     nav ul li {
@@ -94,10 +106,13 @@ nav ul li .btn:hover {
         display: block;
         width: 30px;
         cursor: pointer;
-
+        
+       
     }
+  
 
     .hide-mobile-menu {
         right: -250px;
+ 
     }
 }

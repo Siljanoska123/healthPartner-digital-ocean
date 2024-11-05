@@ -22,37 +22,45 @@
     padding: 2rem 1.5rem;
     width: 90%;
     max-width: 340px;
+    height: 550px;
 }
 
 
-.container-glass img{
+.container-glass img {
     width: 100%;
     height: 240px;
     object-fit: cover;
     object-position: top;
     border-radius: 10px 10px 20px 20px;
 }
+
 .container-glass h2 {
-    font-size: 25px;
-    margin-top: 10px
+    font-size: 23px;
+    margin-top: 15px;
+    height: 55px;
 
 }
 
 .container-glass p {
     font-size: 1.01rem;
-    color: #666;
-    margin: 0.5rem 0;
+    color: #717171;
+    margin: 1.5rem 0;
     text-align: justify;
+    overflow: hidden;
+    height: 99px;
+
 }
 
 .container-glass .btn {
     display: block;
+
     margin: auto;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.02rem;
-    width: 80%;
-    max-width: 200px;
-    padding: .6rem 1rem;
+    width: 60%;
+    max-width: 150px;
+    padding: .5rem 1rem;
+    padding-left: 28px;
     background-color: transparent;
     border: 1px solid #5b81b0;
     border-radius: 5px;
@@ -60,6 +68,7 @@
     color: #5b81b0;
     cursor: pointer;
     transition: all .2s linear;
+
 }
 
 .container-glass .btn:hover {
@@ -71,6 +80,8 @@
 
 
 /* media */
+
+
 
 @media (max-width:1050px) {
     .services {
@@ -92,6 +103,9 @@
     .container-glass p {
         font-size: 12px;
     }
+
+
+
 }
 
 @media (max-width:650px) {

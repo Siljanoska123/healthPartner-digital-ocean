@@ -17,6 +17,10 @@ import Steps from './Components/Steps/Steps'
 import { Route, Routes } from 'react-router-dom'
 import SingleService from './Components/SingleService/SingleService'
 import HomePage from './HomePage/HomePage'
+import Courses from './Components/Courses/Courses'
+import Course1 from './Components/Course1/Course1'
+import './App.css'
+
 
 const App = () => {
 
@@ -24,18 +28,19 @@ const App = () => {
 
 
   return (
-    <div>
+    <div className='app-zdravo'> 
       <Navbar />
       {/* <Header /> */}
-      
+
       <Routes>
-        <Route path='*' element={<HomePage/>}/>
+        <Route path='*' element={<HomePage />} />
         <Route path='/service/:id' element={<SingleService />}></Route>
-      
+        <Route path='/courses' element={<Courses />} />
+        <Route path='/courses/course1' element={<Course1 />} />
       </Routes>
 
       <div className='container'>
-      <Title subTitle='Contact Us' title='Get in Touch' />
+        <Title subTitle='Contact Us' title='Get in Touch' />
         <Contactus />
         <Footer />
       </div>

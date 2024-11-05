@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import logo from '../../assets/logo22.png'
+import logo from '../../assets/logo-final.png'
 import { Link as ScrollLink } from 'react-scroll'
 import menu_icon from '../../assets/menu_icon.png'
 
@@ -147,7 +147,7 @@ function Navbar() {
       </ul>
       <scan className='menu-icon'
         onClick={toggleMenu}>
-        <ion-icon name="grid-outline"></ion-icon>
+        <ion-icon name="menu-outline"></ion-icon>
       </scan>
       {/* <img src={menu_icon} alt='' className='menu-icon'
         onClick={toggleMenu} /> */}

@@ -8,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)),  url('../../assets/heroslika2.webp') ;
+
+
 }
 
 .hero::before{
     content: "";
-    /* background-image: url('https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png');
-    */
+
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -37,6 +39,9 @@
 .hero-left {
     flex-basis: 50%;
     position: relative;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
 
 .hero-left span {
@@ -52,16 +57,19 @@
     /* text-transform: capitalize; */
     margin-top: 20px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1.1;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
     font-size: 40px;
-    background-color: #5b81b0;
-    background-image: linear-gradient(45deg, #5b81b0, #000);
-    background-size: 100%;
+    /* background-color: #5b81b0; */
+    background-image: linear-gradient(1800deg, #5b81b0, #000);
+    /* background-size: 100%; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    /* font-family: 'Montserrat', sans-serif;    */
+    /* word-spacing: 4px; */
 
+}
+/* 
 .hero-left hr {
     display: block;
     background: #ffcc34;
@@ -69,7 +77,7 @@
     border: none;
     margin: 18px 0 30px 0;
 
-}
+} */
 
 .hero-left p {
     line-height: 1.6;

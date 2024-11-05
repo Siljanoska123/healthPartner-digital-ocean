@@ -1,11 +1,31 @@
-
-
 @media (max-width:650px) {
     .container {
         width: 100%;
-    }}
+    }
+}
 
-    @media (max-width:800px) {
-        .container {
-            width: 100%;
-        }}
+@media (max-width:800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .app-zdravo {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .app-zdravo {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1441px) {
+    .app-zdravo {
+        width: 100%;
+    }
+} */

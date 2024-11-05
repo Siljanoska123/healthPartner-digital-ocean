@@ -56,6 +56,22 @@
     color: #666 ;
 }
 
+@media screen and (max-width: 900px){
+    .step img{
+        display: none;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+    }
+    .steps .step h3{
+        font-size: 20px;
+    }
+    .steps .step{
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 480px){
     .step img{
         display: none;

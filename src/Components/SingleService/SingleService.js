@@ -35,42 +35,99 @@ const SingleService = () => {
             {/* Stress Management Plan */}
             {project.title}
           </h1>
-          <h2 class="sub-title">Stress Management Plan</h2>
+          <h2 class="sub-title"> {project.title}</h2>
         </div>
       </div>
-
+      {/* ova e vo red */}
       <div className='description  '>
         <div className='description-left'>
           <img src={project.image} alt='' className='description-image' />
         </div>
         <div className='description-right'>
           <h3>
-            ABOUT Conducting an Analysis of Psychological Strain
+            ABOUT {project.title}
           </h3>
           <h2>
             Description
 
           </h2>
           <p>
-            Managing psychological strain through workplace analysis is an innovative tool that enables employers to gain a deep understanding of the stress levels experienced by employees within the company.  </p>
-          <p>
-            High levels of workplace stress are directly linked to reduced productivity, increased absenteeism, and higher turnover rates.
+            {project.text}
           </p>
-          <p>Proactively managing these factors not only enhances employee well-being but also positively impacts the overall efficiency of the organization. Investing in the analysis and management of psychological strain at the workplace will not only improve the health and well-being of your employees but also contribute to the long-term stability and success of your company.</p>
-          <p> According to Gallup, companies that actively address workplace stress experience 37% lower absenteeism and a 21% increase in profitability.</p>
+          <p>
+            {project.text1}
+          </p>
+          <p>
+            {project.text2}
+          </p>
+          <p>
+
+            {project.text3}
+          </p>
         </div>
 
 
       </div>
 
-      <div className='singleServices-title'>
-        <p>The development of the plan consists of <p>two parts:</p></p>
+
+      {/*  */}
+
+
+      <div className='title'>
+        {/* <p>{subTitle}</p> */}
+        <h2>What do we Offer?</h2>
+      </div>
+
+
+      <div className='whatoffer'>
+
+
+        <p>
+          Anonymous Online Consultations: Employees can access mental health support without having to disclose their identity or personal details. This ensures complete confidentiality and comfort, encouraging open communication and honest discussion.
+        </p>
+
+
+        <div className=''>
+
+          <div className='whatoffer-container' >
+
+           <img src=''/>
+            <div className='service-desc'>
+              <h3>ime</h3>
+              <p className="service-text">tekst</p>
+            </div>
+          </div>
+          <div className='whatoffer-container' >
+
+            <i >ikona</i>
+            <div className='service-desc'>
+              <h3>ime</h3>
+              <p className="service-text">tekst</p>
+            </div>
+          </div>
+        
+        </div>
+
+
+
+
+
+
 
       </div>
 
+
+
+
+
+      {/* <div className='singleServices-title'>
+        <p>The development of the plan consists of <p>two parts:</p></p>
+
+      </div> */}
+
       {/* proba 2 */}
 
-      <div  className='proba2'>
+      {/* <div  className='proba2'>
         <ol style={{ "--length": '5' }} role="list">
           <li style={{ "--i": '1' }}>
             <h3>Comprehensive assessment of psychological risk and stress levels in the workplace.</h3>
@@ -83,7 +140,9 @@ const SingleService = () => {
 
         </ol>
 
-      </div>
+      </div> */}
+
+
     </div>
   )
 }

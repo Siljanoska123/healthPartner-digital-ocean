@@ -19,7 +19,7 @@ function Hero() {
                     Who we are
                 </span>
                 <h1>
-                    Corporate Digital Health
+                Wise Vital Advisors
                 </h1>
                 <br />
                 {/* <hr></hr> */}
@@ -39,10 +39,10 @@ function Hero() {
                 </Link>
             </div>
 
-            <div className='hero-right'>
+            {/* <div className='hero-right'>
                 <img src={hero_img} alt='hero_img' className='hero_img' />
 
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -11,9 +11,9 @@ function Aboutus({ setPlayState }) {
     <div className='about'>
       <div className='about-left'>
         <img src={about_img} alt='' className='about-image' />
-        <span className='play-icon' onClick={() => { setPlayState(true) }} >
+        {/* <span className='play-icon' onClick={() => { setPlayState(true) }} >
           <ion-icon name="play"></ion-icon>
-        </span>
+        </span> */}
         {/* <img src={play_icon} alt='' className='play-icon'
           onClick={() => { setPlayState(true) }} /> */}
         {/* <ion-icon name="play-outline" onClick={() => { setPlayState(true) }} ></ion-icon> */}

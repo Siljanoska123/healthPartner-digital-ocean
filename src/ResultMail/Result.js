@@ -42,7 +42,7 @@ const Result = () => {
                 <label>Phone Number</label>
                 <input type='tel' name='phone' placeholder='Enter your mobile number' required />
                 <label>Write your messages here</label>
-                <textarea name='message' rows='6' placeholder='Ënter your message' required></textarea>
+                <textarea name='message' rows='6' placeholder='Enter your message' required></textarea>
                 <button type='submit' className='btn dark-btn'>Sent message
                     <ion-icon name="navigate"></ion-icon>
                     {/* <img src={white_arrow} alt='' /> */}
