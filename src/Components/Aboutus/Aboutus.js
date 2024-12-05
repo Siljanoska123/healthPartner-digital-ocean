@@ -1,7 +1,6 @@
 import React from 'react'
 import './Aboutus.css'
 import about_img from '../../assets/about.jpg'
-import play_icon from '../../assets/play_icon.png'
 
 // https://www.youtube.com/watch?v=WbV3zRgpw_E
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import logo from '../../assets/logo-final.png'
+import logo from '../../assets/logonew.png'
 import { Link as ScrollLink } from 'react-scroll'
 import menu_icon from '../../assets/menu_icon.png'
 
@@ -56,7 +56,7 @@ function Navbar() {
     await scroller.scrollTo(selector, {
       duration: 500,
       smooth: true,
-      offset: -200,
+      offset: -160,
       spy: true
     });
   };

@@ -22,7 +22,7 @@ function Services() {
             {/* <button className="btn dark-btn "><a href={`/service/${project.id}`}>Read more</a></button> */}
            
            
-            <Link className="btn dark-btn " to={`/courses`}>Read more</Link>
+            <Link className="btn dark-btn " to={`/service/${project.id}`}>Read more</Link>
 
             
           </div>

@@ -1,9 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import hero_back_img from '../../assets/service4.png'
-import hero_boja from '../../assets/boja.png'
-import Slider from '../Slider/Slider'
-import hero_img from '../../assets/naslovna11.png'
+
 import { Link } from 'react-scroll'
 
 
