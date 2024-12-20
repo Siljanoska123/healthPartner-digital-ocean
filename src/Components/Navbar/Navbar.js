@@ -64,11 +64,13 @@ function Navbar() {
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img src={logo} alt='' className='logo' />
-      <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
+      <p>
+        Empowering companies to achieve excellence
+      </p> <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
         <li>
           <ScrollLink
-           onClick={() => goToPageAndScroll("hero")}
-          // to='hero'
+            onClick={() => goToPageAndScroll("hero")}
+            // to='hero'
             spy={true}
             smooth={true}
             offset={0}
@@ -111,7 +113,7 @@ function Navbar() {
         </li>
         <li>
           <ScrollLink
-              onClick={() => goToPageAndScroll("experience")}
+            onClick={() => goToPageAndScroll("experience")}
             // to='reviews'
             spy={true}
             smooth={true}
@@ -122,7 +124,7 @@ function Navbar() {
         </li>
         <li>
           <ScrollLink
-              onClick={() => goToPageAndScroll("reviews")}
+            onClick={() => goToPageAndScroll("reviews")}
             // to='reviews'
             spy={true}
             smooth={true}

@@ -18,20 +18,26 @@ const HomePage = () => {
         <div>
             <Hero />
             <div className='container'>
+                <Title subTitle='Experience' title='How Do We Help You?' />
+                <Experience />
                 <Title subTitle='Services' title='What We Offer' />
                 <Services />
-                <Title subTitle='Experience' title='What is Our Experience' />
-                <Experience />
 
+                <Title subTitle='______' title='About Our Company' />
                 <Aboutus setPlayState={setPlayState} />
-                <Title subTitle='How We Work' title='Our process' />
-                <Steps />
+                {/* <Title subTitle='How We Work' title='Our process' />
+                <Steps /> */}
+
+{/*  */}
                 {/* <Title subTitle='Our Program' title='What We Offer' />
-                <Programs /> */}
-                {/* <Title subTitle='Our Team' title='We Are The Best Team' />
-                <OurTeam /> */}
-                {/* <Title subTitle='Gallery' title='Best Fotos of Us' />
+                <Programs />
+                <Title subTitle='Our Team' title='We Are The Best Team' />
+                <OurTeam />
+                <Title subTitle='Gallery' title='Best Fotos of Us' />
                 <Gallery /> */}
+{/*  */}
+
+
                 <Title subTitle='Reviws' title='What Others Says' />
                 <Reviews />
                 {/* <Title subTitle='Contact Us' title='Get in Touch' />

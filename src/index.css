@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Bower&display=swap" rel="stylesheet'); */
 
 
@@ -7,15 +7,30 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Bower', Georgia, 'Times New Roman', serif; */
-  font-family: "Outfit", sans-serif;
-  
+  /* font-family: "Outfit", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6; /* Добра читливост */
 
 }
 
 body {
   background: #f5f5f5;
 }
+/* novo */
 
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #006F7B;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #717171;
+}
+
+/* do ovde */
 a {
   text-decoration: none;
   color: inherit;

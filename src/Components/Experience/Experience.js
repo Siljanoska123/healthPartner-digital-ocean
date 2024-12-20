@@ -4,39 +4,41 @@ import { Link } from 'react-scroll'
 
 const Experience = () => {
     return (
-        <div className='experience'>
-            <div className='experience-left'>
-                <h1>Why Us?</h1>
-                <p>
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla purus, ornare ac fringilla vel, laoreet et nibh. Nunc nec dolor at odio vestibulum accumsan. Cras sed molestie erat. Donec vel dictum lectus, non mollis nunc. Proin tempor venenatis interdum. Phasellus ut vulputate purus. Aliquam porta sapien felis, at rhoncus lorem aliquet id. Sed suscipit diam eu felis facilisis, et bibendum elit maximus. Donec aliquam lacus ac nulla semper, id molestie magna imperdiet. Vivamus velit augue, aliquam vel vulputate et, vulputate in dolor.
-                </p>
-
-                <Link to='contact' smooth={true} offset={-260} duration={500} className='btn dark-btn'>Contact us</Link>
-            </div>
-            <div className='experience-right'>
-                <div className='experience-card'>
-                    <div className='e-card'>
-                        <h1>100 +</h1>
-                        <p>Happy Customer</p>
-                    </div>
-                    <div className='e-card'>
-                        <h1>450 +</h1>
-                        <p>Project Completed</p>
-                    </div>
-                    <div className='e-card'>
-                        <h1>50 +</h1>
-                        <p>Award Wins</p>
-                    </div>
-                    <div className='e-card'>
-                        <h1>20 +</h1>
-                        <p>Years Experience</p>
-                    </div>
-
-                </div>
-
-            </div>
+        <section class="experience">
+      
+        <div class="experiencecards">
+          <div class="experiencecard">
+            <i class="fas fa-users"></i>
+            {/* <h3>Care for your employees</h3> */}
+            <p>If a good employee is the best asset a company can own, keeping them motivated and healthy is the most important priority. </p>
+          </div>
+          <div class="experiencecard">
+            <i class="fas fa-heartbeat"></i>
+            {/* <h3>Motivation programs</h3> */}
+            <p>Through our programs, certifications, and training sessions, we offer tools and solutions that improve motivation, health, and trust, which lead to the overall success of an organization.</p>
+          </div>
+          <div class="experiencecard">
+            <i class="fas fa-brain"></i>
+            {/* <h3>Stress management</h3> */}
+            <p>Our tailored stress management plans and mental hygiene support ensure employees remain resilient and focused in demanding work environments. </p>
+          </div>
+          <div class="experiencecard">
+            <i class="fas fa-lightbulb"></i>
+            {/* <h3>Leadership and culture</h3> */}
+            <p>By fostering leadership excellence and cultivating a positive organizational culture, we empower businesses to inspire innovation and collaboration. </p>
+          </div>
+          <div class="experiencecard">
+            <i class="fas fa-cogs"></i>
+            {/* <h3>Safety and comfort</h3> */}
+            <p>Our emphasis on workplace ergonomics and robust safety standards creates a foundation where both productivity and employee satisfaction thrive.</p>
+          </div>
         </div>
+      </section>
+      
+      
+      
+      
+      
     )
 }
 

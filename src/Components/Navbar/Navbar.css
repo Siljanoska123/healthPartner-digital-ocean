@@ -1,7 +1,7 @@
 nav {
     width: 100%;
-    background: #fff; 
-    color:#717171;
+    background: #fff;
+    color: #717171;
     padding: 4px 0;
     position: fixed;
     top: 0;
@@ -16,8 +16,16 @@ nav {
 .logo {
     width: 80px;
     height: 80px;
+}
 
+nav p {
 
+    text-transform: uppercase;
+    margin-left: -180px;
+    margin-top: 18px;
+    color: #006F7B;
+    font-size: 0.9rem;
+    font-family: 'Dancing Script', cursive; /* Избран фонт */
 }
 
 nav ul li {
@@ -30,27 +38,27 @@ nav ul li {
 }
 
 nav ul li:hover:not(:last-child) {
-  
+
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom-style: outset;
     border-bottom-width: 4.1px;
-    border-bottom-color: #ffcc34;
+    border-bottom-color: #AAC13B;
     width: fit-content;
 
 }
 
 nav ul li .btn:hover {
-    background-color: #ffcc34;
+    background-color: #AAC13B;
 }
 
 nav ul li .btn {
-    background-color: #ffcc34;
-    color:#717171;
+    background-color: #5B9EA6;
+    color: #fff;
 }
 
 .dark-nav {
-    background:fff;
+    background: fff;
     transition: 0.5s;
 }
 
@@ -75,7 +83,7 @@ nav ul li .btn {
         margin: 10px 15px;
     }
 
-   
+
 
 }
 
@@ -106,13 +114,13 @@ nav ul li .btn {
         display: block;
         width: 30px;
         cursor: pointer;
-        
-       
+
+
     }
-  
+
 
     .hide-mobile-menu {
         right: -250px;
- 
+
     }
 }

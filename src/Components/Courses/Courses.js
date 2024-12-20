@@ -15,7 +15,7 @@ const Courses = () => {
             {coursesCard.map((course, index) => (
                 <article className="courses-card" key={index}>
                     <header className="courses-card__thumb">
-                        <img src={course.image} alt={course.title} />
+                        <Link to={`/courses/${course.id}`}>    <img src={course.image} alt={course.title} /></Link>
                     </header>
                     <div className="courses-card__body">
                         <div className="courses-card__category"><b>{course.top}</b></div>

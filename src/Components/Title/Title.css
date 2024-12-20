@@ -9,8 +9,22 @@
 }
 
 .title h2 {
-    font-size: 32px;
+    /* font-size: 32px;
     color: #000f38;
     margin-top: 5px;
-    text-transform: none;
+    text-transform: none; */
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.custom-line {
+    height: 4px;
+    /* Дебелина на линијата */
+    width: 100px;
+    /* Должина на линијата */
+    background-color: #AAC13B;
+    /* Боја на линијата */
+    margin: 20px auto;
+    /* Центрирање */
 }

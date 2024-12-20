@@ -10,36 +10,40 @@ function Hero() {
 
     return (
         <div className='hero container'>
-         
+
             <div className='hero-left'>
-                <span>
+                {/* <span>
                     Who we are
-                </span>
+                </span> */}
                 <h1>
-                Wise Vital Advisors
+                    Wise Vital 
                 </h1>
+                <h2 >
+                    Advisors 
+                </h2>
                 <br />
                 {/* <hr></hr> */}
                 <p>
-                    {/* web coaching */}
-                    We are helping employees to be happier and healthyer , because great companies are made of great people.
+                      Empowering companies to achieve excellence
                 </p>
 
 
-                <Link
+
+            </div>
+
+            <div className='hero-right'>
+                {/* <img src={hero_img} alt='hero_img' className='hero_img' /> */}
+                {/* <Link
                     to='about'
                     smooth={true}
                     offset={-150}
                     duration={500}
                     className='btn'>
                     Explore more
-                </Link>
+                </Link> */}
+
+
             </div>
-
-            {/* <div className='hero-right'>
-                <img src={hero_img} alt='hero_img' className='hero_img' />
-
-            </div> */}
         </div>
     )
 }

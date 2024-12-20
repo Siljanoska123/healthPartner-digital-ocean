@@ -4,11 +4,22 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    flex-wrap: wrap;  
 }
+
+.about-header {
+    width: 80%;
+    text-align: center;
+    margin: -50px 10% 30px 10%;
+  
+}
+
+
 
 .about-left {
     flex-basis: 40%;
     position: relative;
+  
 }
 
 .about-right {
@@ -16,8 +27,10 @@
 }
 
 .about-image {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
+    transform: scaleX(-1);  
+   
     
 }
 .about ion-icon{
